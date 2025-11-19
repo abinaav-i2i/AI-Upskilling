@@ -43,4 +43,4 @@ data/*
 
 #qdrant storage
 # Ignore qdrant local vector DB files
-Recommendation-system/summarizer/qdrant_storage/
+qdrant_storage/
