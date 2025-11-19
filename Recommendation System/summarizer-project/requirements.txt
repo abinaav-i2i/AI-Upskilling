@@ -1,0 +1,10 @@
+pandas
+numpy
+sentence-transformers
+qdrant-client
+transformers
+torch
+typer[all]
+uvicorn
+scikit-learn
+kaggle

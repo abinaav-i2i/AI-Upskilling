@@ -1,0 +1,46 @@
+# === Python Bytecode ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# === Virtual Environment Directories ===
+venv/
+env/
+.venv/
+
+# === Environment & Secrets ===
+.env
+!.env.example
+
+# === Cache, Logs & Temp Files ===
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# === VSCode & IDE Settings ===
+.vscode/
+.idea/
+
+# === Vector Store ===
+vector_store/
+
+# === data/ folder ===
+# Ignore everything inside data except the folder and optional placeholder
+data/*
+!data/.gitkeep
+
+# === Jupyter Notebook Checkpoints ===
+.ipynb_checkpoints/
+
+# === macOS & Linux system files ===
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+#qdrant storage
+# Ignore qdrant local vector DB files
+Recommendation-system/summarizer/qdrant_storage/

@@ -1,0 +1,4 @@
+
+# Ignore qdrant local vector DB files
+qdrant_storage/
+
